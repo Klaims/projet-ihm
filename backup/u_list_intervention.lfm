@@ -1,0 +1,51 @@
+inherited f_liste: Tf_liste
+  Left = 746
+  Height = 725
+  Top = 237
+  Width = 900
+  ClientHeight = 725
+  ClientWidth = 900
+  inherited pnl_titre: TPanel
+    Width = 900
+    ClientWidth = 900
+    object Label1: TLabel[0]
+      Left = 16
+      Height = 24
+      Top = 8
+      Width = 188
+      Caption = 'Liste des interventions'
+      ParentColor = False
+    end
+  end
+  inherited pnl_btn: TPanel
+    Top = 683
+    Width = 900
+    ClientWidth = 900
+    inherited pnl_btn_ligne: TPanel
+      Width = 401
+      ClientWidth = 401
+      inherited btn_line_detail: TSpeedButton
+        Left = 199
+      end
+      inherited btn_line_add: TSpeedButton
+        Left = 250
+      end
+      inherited btn_line_delete: TSpeedButton
+        Left = 349
+      end
+      inherited btn_line_edit: TSpeedButton
+        Left = 299
+      end
+    end
+  end
+  inherited pnl_affi: TPanel
+    Height = 641
+    Width = 900
+    ClientHeight = 641
+    ClientWidth = 900
+    inherited sg_liste: TStringGrid
+      Height = 641
+      Width = 900
+    end
+  end
+end

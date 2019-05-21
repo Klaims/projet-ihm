@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\Lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1313019544"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq &quot;-FiC:\Users\Hugo\Dropbox\Cours IUT\IHM\projet-ihm-master\lib\x86_64-win64&quot; -FuD:\Lazarus\lcl\units\x86_64-win64\win32 -FuD:\Lazarus\components\datetimectrls\lib\x86_64-win64\win32 -FuD:\Lazarus\lcl\units\x86_64-win64 &quot;-FuC:\Users\Hugo\Dropbox\Cours IUT\IHM\projet-ihm-master\ZEOSDBO-7.1.4-stable\packages\lazarus\lib\x86_64-win64&quot; -FuD:\Lazarus\components\lazutils\lib\x86_64-win64 -FuD:\Lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\Hugo\Dropbox\Cours IUT\IHM\projet-ihm-master\&quot; &quot;-FUC:\Users\Hugo\Dropbox\Cours IUT\IHM\projet-ihm-master\lib\x86_64-win64\&quot; &quot;-FEC:\Users\Hugo\Dropbox\Cours IUT\IHM\projet-ihm-master\&quot; &quot;-oC:\Users\Hugo\Dropbox\Cours IUT\IHM\projet-ihm-master\projet.exe&quot; -dLCL -dLCLwin32 projet.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

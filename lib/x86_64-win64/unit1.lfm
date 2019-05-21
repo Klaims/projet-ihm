@@ -1,0 +1,99 @@
+object Form1: TForm1
+  Left = 657
+  Height = 800
+  Top = 185
+  Width = 1200
+  Caption = 'Sécurité Avant Tout'
+  ClientHeight = 775
+  ClientWidth = 1200
+  DesignTimePPI = 120
+  Menu = mnu_main
+  LCLVersion = '2.0.0.4'
+  object pnl_filarianne: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 1200
+    Align = alTop
+    ParentColor = False
+    TabOrder = 0
+  end
+  object pnl_selection: TPanel
+    Left = 0
+    Height = 725
+    Top = 50
+    Width = 300
+    Align = alLeft
+    TabOrder = 1
+  end
+  object pnl_main: TPanel
+    Left = 300
+    Height = 725
+    Top = 50
+    Width = 900
+    Align = alClient
+    ClientHeight = 725
+    ClientWidth = 900
+    TabOrder = 2
+    object lbl_sat: TLabel
+      Left = 344
+      Height = 81
+      Top = 120
+      Width = 143
+      Caption = 'S.A.T'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -60
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object lbl_accueil: TLabel
+      Left = 256
+      Height = 192
+      Top = 240
+      Width = 320
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Application de gestion des interventions'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -47
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+      WordWrap = True
+    end
+  end
+  object mnu_main: TMainMenu
+    left = 16
+    top = 8
+    object mnu_accueil: TMenuItem
+      Caption = 'Accueil'
+      OnClick = mnu_accueilClick
+    end
+    object mnu_contrats: TMenuItem
+      Caption = 'Contrats'
+      object mnu_clients: TMenuItem
+        Caption = 'Clients'
+      end
+      object mnu_sites: TMenuItem
+        Caption = 'Sites'
+      end
+      object mnu_inter: TMenuItem
+        Caption = 'Interventions'
+      end
+    end
+    object mnu_prest: TMenuItem
+      Caption = 'Prestations'
+    end
+    object mnu_quitter: TMenuItem
+      Caption = 'Quitter'
+    end
+  end
+end
